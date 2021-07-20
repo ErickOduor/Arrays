@@ -33,6 +33,8 @@ for i in range(1, 10):
     for i in range(2, n):
         a += [a[i-1] + a[i-2]]
 
-Answer: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-Bonus: Compose a program that takes an integer command-line argument n and n poker hands (five cards each) from a sheffled deck, seperated by blank lines
+Answer: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]  
 
+Bonus: Compose a program that takes an integer command-line argument n and n poker hands (five cards each) from a sheffled deck, seperated by blank lines  
+
+Answer: in n_poker_hand.py program file in repository 
