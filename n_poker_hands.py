@@ -8,11 +8,16 @@ card_deck = ['One_S','Two_S','Thr_S','Fou_S','Fiv_S','Six_S','Sev_S','Eig_S','Ni
 
 n = int(input('Enter the number number of poker hands you you need: '))
 a = []
+b = []
 if n < 10:
     for i in range(1, n):
         a.append(random.choices(card_deck, k=5))
-        card_deck.remove(a)
-print(card_deck)
+        if a in b:
+            break
+        else:
+            b.extend(a)
+        
+print(b)
 
 
 
